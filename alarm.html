@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+    <!--Font Awesome Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="timer-display">
+            <h1>00:00:00 AM</h1>
+        </div>
+      
+        <div class="content">
+
+
+            <div div class="column">
+                <select>
+                    <option value="Hour" selected hidden>Hour</option>
+
+                </select>
+            </div>
+            <div div class="column">
+                <select>
+                    <option value="Minute" selected hidden>Minute</option>
+
+                </select>
+            </div>
+            <div div class="column">
+                <select>
+                    <option value="AM/PM" selected hidden>AM/PM</option>
+
+
+                </select>
+            </div>
+        </div>
+        <button class="btn">Set Alarm</button>
+        
+        <div id="history"></div>
+        <ul id="alarms" class="alarms"></ul>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

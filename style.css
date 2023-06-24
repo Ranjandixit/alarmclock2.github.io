@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+   display: flex;
+   background-color: black;
+   
+  
+
+}
+
+.wrapper{
+    background-color: #578df1;
+    width: 90%;
+    max-width: 31.25em;
+    padding: 3.12em 5em;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 12em;
+    border-radius: 1.8em;
+  
+}
+
+.timer-display{
+    color: black;
+    background-color: lightgray;
+    font-size: 1.18em;
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+    border-width: 2px 2px 2px 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+
+    
+}
+
+.content{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7em;
+    
+    
+}
+select{
+    font-size: 1em;
+    background-image: repeating-linear-gradient(200deg,rgb(200, 0, 255),rgb(201, 163, 201));
+    width: 75px;
+    height: 25px;
+    text-align: center;
+    background-color: lightgray;
+    border: 2px solid black;
+    border-radius: 15px;
+    
+    
+}
+select:hover{
+    color: white;
+    background-color: rgb(135, 222, 181);
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.btn{
+    display: block;
+    margin: 10px auto;
+    height: 30px;
+    width: 80px;
+    font-size: 0.9em;
+    font-weight: 400;
+    color:black;
+    background-image: repeating-linear-gradient(200deg,rgb(0, 255, 136),rgb(0, 200, 255));
+    border: 1px solid black;
+    border-radius: 8px;
+
+}
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.alarms{
+    margin-top: 25px
+}
+
+li{
+    display: grid;
+    grid-template-columns: 8fr 2fr ;
+    gap: 1em;
+    height: 25px;
+    color: black;
+    background-color: lightgrey;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+}
+.history{
+    font-size: 1.7em;
+    margin-top: 15px;
+    width: 85px;
+    border-bottom: 2px solid black;
+}
+
+.delete-btn{
+    color: rgb(191 61 214);
+}
+.delete-btn:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    
+}
+
+
